@@ -1,0 +1,133 @@
+@media (max-width:1200px){
+    .fixd-width {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width:1024px){
+    .part {
+        width: 48%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 30px;
+    }
+    .for-image-left img {
+        width: 100%;
+    }
+    .content-right {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+@media (max-width:768px){
+    .header .menu {
+        width: 100%;
+        text-align: center;
+    }
+    .header .logo {
+        width: 100%;
+        text-align: center;
+        line-height: 0;
+        padding-top: 20px;
+    }
+    .menu ul li {
+        padding: 0px 9px;
+        line-height: 46px;
+        margin-left: 0;
+    }
+    .banner {
+        padding: 120px 0;
+    }
+    .banner h1 {
+        font-size: 23px;
+    }
+    .banner p {
+        font-size: 17px;
+        padding: 10px 0px;
+    }
+    .service h1 {
+        font-size: 21px;
+    }
+    .service p {
+        padding-top: 15px;
+        font-size: 12px;
+    }
+    .service {
+        padding: 30px 0;
+    }
+}
+@media (max-width:500px){
+    .menu ul li {
+        padding: 0px 7px;
+        line-height: 44px;
+        font-size: 11px;
+    }
+    .logo h1 {
+        font-size: 27px;
+        padding: 9px 0px;
+    }
+    .banner {
+        padding: 70px 0;
+    }
+    .banner p {
+        font-size: 13px;
+        padding: 7px 0px;
+    }
+    .banner a {
+        padding: 9px 16px;
+        margin-top: 12px;
+
+    }
+    .contact-section .add {
+        width: 31.3%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 26px;
+    }
+    .footer-down h3 {
+         font-size: 13px;
+    }
+    .contact-section {
+        padding-bottom: 26px;
+    }
+}
+/* main css */
+.menu span{
+    display: none;
+}
+/* main css */
+@media (max-width:400px){
+    .menu ul li {
+        display: none;
+    }
+    .header .logo {
+        padding-bottom: 10px;
+    }
+    .header .logo {
+        padding-bottom: 20px;
+    }
+    .header .logo {
+        text-align: left;
+    }
+    .header{
+        position: relative;
+    }
+    .menu span {
+        position: absolute;
+        right: 19px;
+        bottom: 11px;
+        font-size: 24px;
+        color: #fff;
+        cursor: pointer;
+        display: block;
+    }
+    .part {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+}
